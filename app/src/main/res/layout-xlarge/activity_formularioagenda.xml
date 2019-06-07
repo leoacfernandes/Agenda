@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".FormularioAgendaActivity"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="75dp"
+            android:id="@+id/nome"
+            android:hint="Nome do evento"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="75dp"
+            android:id="@+id/data"
+            android:hint="Data"
+            android:layout_marginTop="75dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="75dp"
+            android:id="@+id/hora"
+            android:hint="Hora"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/botaosalvar"
+            android:text="Salvar"
+
+            android:textColor="#FFFFFF"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="25"
+            android:textSize="30sp"
+
+            android:layout_width="222dp"
+            android:layout_height="75dp"
+
+            android:background="@drawable/buttonshapesalvar"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="135dp"
+
+            />
+
+        <Button
+            android:id="@+id/botaolista"
+            android:text="Lista"
+
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="25"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            android:layout_width="222dp"
+            android:layout_height="75dp"
+
+            android:background="@drawable/buttonshapelista"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginTop="225dp"
+            android:layout_marginRight="135dp"
+            />
+    </RelativeLayout>
+</ScrollView>
